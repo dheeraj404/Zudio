@@ -828,3 +828,100 @@ margin: 10px 0px 20px 0px;
     text-align: center;
 font-size: 1rem;
 }
+
+@media (max-width:460px){
+    #header{
+        height: 4vh;
+    }
+    #header img{
+        height: 20px;
+
+    }
+
+    #hero{
+       padding-right:80px ;
+       height: 90vh;
+       background-image: url("hero4.png");
+  font-size: 1.5rem;
+
+background-position: -550px 0;
+background-repeat: no-repeat;
+
+    }
+    #hero h1{
+      font-size: 1.7rem;
+    }
+    #hero h4{
+        font-size: 1.2rem;
+    }
+    #hero p{
+        font-size: 0.9rem;
+        color: #0c9b9b;
+    }
+    #hero button{
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    #feature_product .main_tag h1{
+font-size: 1.5rem;
+    }
+    #new_staler .su_1 {
+        width: 60%;
+              }
+    #new_staler .su_1 h1{
+      font-size: 1.2rem;
+    }
+    #new_staler .su_1 h5{
+        font-size: 0.5rem;
+      }
+      #new_staler .su_2 {
+width: 40%;
+      }
+      #new_staler .su_2 input{
+        width: 145px;
+        font-size: 0.8rem;
+        height: 20px;
+        margin-top: 20px;
+              }
+              #new_staler .su_2 button{
+    height: 29px;
+    font-size: 0.8rem;
+    width: 158px;
+                      }
+#offer .offer h1{
+font-size: 1.2rem;
+}
+#action .item {
+    display: inline;
+
+   
+}
+#action{
+    padding: 5px 10px;
+}
+#action .item_1{
+   background-size: contain;
+}
+#action .item_1 h1{
+    font-size: 1.9rem;
+}
+#action .item_2{
+    background-size: contain; 
+    padding-left: 25px;
+}
+#action .item_1 h1{
+    font-size: 1.9rem;
+}
+#action .item__1 {
+    width: 400px;
+}
+#action .item_ {
+    padding: 10px 10px;
+}
+#action .item__2 {
+    width: 400px;
+}
+#action .item__3 {
+    width: 400px;
+}
+}
